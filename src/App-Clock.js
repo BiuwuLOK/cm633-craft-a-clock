@@ -1,6 +1,6 @@
 import React from 'react';
 
-class App extends React.Component
+class DemoClock extends React.Component
 {
   state = {
     time: "12:34",
@@ -44,4 +44,4 @@ class App extends React.Component
   }
 }
 
-export default App;
+export default DemoClock;
