@@ -2,16 +2,8 @@ import React from "react";
 import NavItem from "./NavItem";
 
 class App extends React.Component {
-  	
-  constructor(props) {
-    super(props);
-    this.state = {
-      count: 100,
-    };
-  }
-  
+
   render() {
-    const name = "Maximimlian";
 
     return (
       <ul className="bg-slate-900 py-2 px-8 flex justify-center gap-x-2">
